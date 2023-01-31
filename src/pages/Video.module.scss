@@ -1,0 +1,52 @@
+// .vid{
+//     height: 720px;
+//     box-shadow: 5px 5px 15px 5px  
+//     #000000c4;
+//     overflow: hidden;
+//     border-radius: 100px;
+//     object-fit: cover;
+//     margin-bottom: 3rem;
+//     margin-top: 2rem;
+//     // video{
+
+//     //    text-align: center;
+//     //    align-items: center;
+//     //     width: 1800px;
+//     //     object-fit: cover;
+//     //     border-radius: 20px;
+
+//     // }
+
+// }
+
+.vse {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pizza {
+    font-style: normal;
+    font-weight: 550;
+    font-size: 30px;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.poisk {
+    
+    :hover {
+         transition: 2s;
+         width: 300px;  
+    }
+    input {
+        border-radius: 10px;
+        background-color: rgb(240, 240, 240);
+        padding: 12px 16px;
+        width: 250px;
+        border: none;
+        border-radius: 10px;
+        transition: 4s;
+
+    }
+}
