@@ -10,8 +10,9 @@ const Mysnye = () => {
         setPlus(!plus)
     }
   return (
-<div className={s.hov}>
+
 <div className={s.menu}>
+<div className={s.hh}>
 <div className={s.a}>
     <img src={m1} />
     <p>Пепперони Фреш<br/> с перцем</p>

@@ -4,7 +4,7 @@ import Video from '../Video';
 import { useState } from 'react';
 import { pizza } from '../../constants/pizza'
 import Slider from '../../components/Slider/Slider';
-
+import Dostavka from '../../components/Dostavka/Dostavka';
 const Hompage = () => {
 
     const [value, setValue] = useState('')
@@ -20,6 +20,7 @@ const Hompage = () => {
                     <Pizza item={item} />
                 ))}
             </div>
+            <Dostavka/>
         </div>
     )
 }

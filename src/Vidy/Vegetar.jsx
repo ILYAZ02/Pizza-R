@@ -26,7 +26,9 @@ const Vegetar = () => {
 
   return (
     <div className={s.hov}>
+       
     <section className={s.menu}>
+    <div className={s.hh}>
  <div className={s.a}>
     <div className={s.f1}>
         <img src={f3} />
@@ -49,8 +51,10 @@ const Vegetar = () => {
                 alt="plus" />
         </div>
     </div>
-
+   
 </div>
+</div>
+<div className={s.hh}>
 <div className={s.a}>
                 <img src={p2} />
                 <p>Сырная</p>
@@ -72,6 +76,8 @@ const Vegetar = () => {
                 </div>
 
             </div>
+            </div>
+            <div className={s.hh}>
             <div className={s.a}>
                 <div className={s.f1}>
                     <img src={f1} />
@@ -96,6 +102,7 @@ const Vegetar = () => {
                     </div>
                 </div>
 
+            </div>
             </div>
     </section>
     </div>

@@ -19,6 +19,7 @@ const Ostrye = () => {
 
     return (
         <section className={s.menu}>
+            <div className={s.hh}>
             <div className={s.a}>
                 <img src={p1} />
                 <p>Чизбургер-пицца</p>
@@ -41,6 +42,8 @@ const Ostrye = () => {
                 </div>
 
             </div>
+            </div>
+            <div className={s.hh}>
             <div className={s.a}>
                 <div className={s.f1}>
                     <img src={f4} />
@@ -64,6 +67,7 @@ const Ostrye = () => {
                     </div>
                 </div>
 
+            </div>
             </div>
         </section>
     )

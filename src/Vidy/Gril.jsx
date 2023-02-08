@@ -19,6 +19,7 @@ const Gril = () => {
     }
     return (
         <section className={s.menu}>
+            <div className={s.hh}>
             <div className={s.a}>
                 <div className={s.f1}>
                     <img src={f1} />
@@ -42,8 +43,10 @@ const Gril = () => {
                             alt="plus" />
                     </div>
                 </div>
-
+              
             </div>
+            </div>
+            <div className={s.hh}>
             <div className={s.a}>
                 <div className={s.f1}>
                     <img src={f3} />
@@ -67,6 +70,7 @@ const Gril = () => {
                     </div>
                 </div>
 
+            </div>
             </div>
         </section>
 

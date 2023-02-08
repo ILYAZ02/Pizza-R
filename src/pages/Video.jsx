@@ -3,10 +3,15 @@ import vid from '../video/Промо-ролик кафе _Barbaris_ _ EPIC B-ROL
 import s from '../pages/Video.module.scss'
 const Video = ({setValue, value}) => {
   return (
+  <div>
     <div className={s.vse}>
          {/* <div className={s.vid}>
-      <video src={vid} controls autoPlay loop ></video>
+      <video src={vid} controls autoPlay muted ></video>
       </div> */}
+      
+    </div>
+    <div className={s.dd}>
+    
       <div className={s.pizza}><p>Все пиццы:</p></div>
       <div className={s.poisk}>
           <input placeholder='поиск...'
@@ -14,8 +19,10 @@ const Video = ({setValue, value}) => {
             value={value}
             onChange={e => setValue(e.target.value)}/>
         </div>
+   
+       
     </div>
-      
+      </div>
 
   )
 }

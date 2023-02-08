@@ -1,7 +1,7 @@
 .a {
     width: 249.12px;
     height: 260px;
-    padding-bottom: 15rem;
+   
 
    
     p {
@@ -17,15 +17,16 @@
         background-color: #F3F3F3;
         border-radius: 10px;
         width: 190px;
-        height: 50px;
+        height: 55px;
         align-items: center;
         text-align: center;
         line-height: 22px;
+        padding: 4px;
 
         button {
             border-color: aliceblue;
             border: none;
-            padding: 0px 9px;
+            padding: 0px 6px;
 
         }
     }
@@ -49,16 +50,35 @@
         }
         p{
             font-size: 12px;
+            position: relative;
+            top: 5px;
 
         }
     }
 }
-
+.hh{
+    width: 270.12px;
+    height: 430px;
+    padding: 8px;
+    padding-top: 15px;
+    text-align: center;
+    border-radius: 25px;
+   
+   
+    
+    &:hover {
+        box-shadow: 5px 5px 10px 10px rgb(210, 206, 206);
+        transition: 1s;
+        transform: scale(1.1)
+    }
+}
 
 .menu{
+    padding: 0px 10px 100px 10px;
+
     margin-top: 2rem;
     // width: 1190px;
-    padding: 0 10px;
+  
     gap: 4rem;
     display: flex;
     flex-wrap: wrap;

@@ -1,28 +1,28 @@
 // .vid{
 //     height: 720px;
-//     box-shadow: 5px 5px 15px 5px  
-//     #000000c4;
 //     overflow: hidden;
-//     border-radius: 100px;
 //     object-fit: cover;
-//     margin-bottom: 3rem;
+//     margin-bottom: 1rem;
 //     margin-top: 2rem;
-//     // video{
+//     video{
 
-//     //    text-align: center;
-//     //    align-items: center;
-//     //     width: 1800px;
-//     //     object-fit: cover;
-//     //     border-radius: 20px;
+//        text-align: center;
+//        align-items: center;
+//         width: 1800px;
+//         object-fit: cover;
+//         border-radius: 20px;
 
-//     // }
+//     }
 
 // }
 
-.vse {
+.dd {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+   
 }
 
 .pizza {
@@ -34,7 +34,7 @@
 }
 
 .poisk {
-    
+
     :hover {
          transition: 2s;
          width: 300px;  

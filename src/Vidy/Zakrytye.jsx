@@ -26,6 +26,7 @@ const Zakrytye = () => {
   return (
   
     <section className={s.menu}>
+        <div className={s.hh}>
    <div className={s.a}>
                 <img src={p1} />
                 <p>Маргаритта</p>
@@ -48,6 +49,9 @@ const Zakrytye = () => {
                 </div>
 
             </div>
+            </div>
+            
+        <div className={s.hh}>
             <div className={s.a}>
                 <div className={s.f11}>
                     <img src={f2} />
@@ -73,6 +77,9 @@ const Zakrytye = () => {
                 </div>
 
             </div>
+            </div>
+            <div className={s.hh}>
+
             <div className={s.a}>
                 <img src={p4} />
                 <p>Сырный цыпленок</p>
@@ -93,6 +100,7 @@ const Zakrytye = () => {
                     </div>
                 </div>
 
+            </div>
             </div>
     </section>
   )
