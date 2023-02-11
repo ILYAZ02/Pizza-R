@@ -33,6 +33,7 @@
     .zakaz{
         position:relative ;
         left: 8px;
+        top: 0.5em;
         display: flex;
         align-items: center;
         text-align: center;
@@ -84,7 +85,12 @@
     justify-content: space-around;
     align-items: center;
     text-align: center;
- 
+    :focus{
+        transition: 0.2s;
+        background-color: #ffff;
+        transform: scale(1s);
+        border-radius: 15px;
+}
 
 }
 .b{
@@ -119,6 +125,6 @@
 
     .dobav{
         position: relative;
-        top: -3rem;
+        top: -2.5rem;
         left: 2rem;
     }

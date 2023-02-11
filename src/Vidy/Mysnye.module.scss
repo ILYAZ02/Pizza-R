@@ -16,6 +16,7 @@ img{
     .button {
        position: relative;
        left: 30px;
+       top: -10px;
         background-color: #F3F3F3;
         border-radius: 10px;
         width: 190px;
@@ -24,6 +25,7 @@ img{
         text-align: center;
         line-height: 22px;
         padding: 4px;
+
 
         button {
             border-color: aliceblue;
@@ -35,6 +37,7 @@ img{
     .zakaz{
         position:relative ;
         left: 8px;
+        top: 0.5rem;
         display: flex;
         align-items: center;
         text-align: center;
@@ -86,7 +89,12 @@ img{
     justify-content: space-around;
     align-items: center;
     text-align: center;
- 
+    :focus{
+        transition: 0.2s;
+        background-color: #ffff;
+        transform: scale(1s);
+        border-radius: 15px;
+}
 
 }
 .b{
@@ -121,6 +129,6 @@ img{
 
     .dobav{
         position: relative;
-        top: -3rem;
+        top: -2.5rem;
         left: 2rem;
     }
